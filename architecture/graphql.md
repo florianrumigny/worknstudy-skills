@@ -6,11 +6,19 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- la différence entre REST et GraphQL ❌ / ✔️
-- les besoins auxquels répond GraphQL ❌ / ✔️
+- la différence entre REST et GraphQL ✔️
+  En graphQL, on a pas besoin d'utiliser des verbes HTTP pour créer notre CRUD. Une seule route post pour toutes nos requêtes. On parle de Query/Mutation/Subscription pour gérer la lecture, l'écriture. C'est une méthode différente de communication client-server, très pratique pour du React. Ca change le rapport entre le client et le server, mais pas la communication du back vers la BDD.
+
+- les besoins auxquels répond GraphQL ✔️
+  GraphQl résoud plusieurs problèmes liés à l'under/over-fetching / la manipulation des données côté front-end et une meilleure visualisation de ce que l'on envoie et reçoit / Meilleure communication client-server /
+
 - la définition d'un schéma
-- Query ❌ / ✔️
-- Mutation ❌ / ✔️
+- Query ✔️
+  Une query est une requête de lecture.
+
+- Mutation ✔️
+  Une mutation est une requête d'écriture / création / suppression / modification des données
+
 - Subscription ❌ / ✔️
 
 ## 💻 J'utilise
@@ -29,7 +37,9 @@ Description :
 
 Description :
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ❌
+
+Je n'utilise pas graphQL dans mon environnement professionnel.
 
 Description :
 
